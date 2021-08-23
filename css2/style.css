@@ -206,7 +206,7 @@
     bottom: 55px;
 }
 .map-content-box .inner .overlay .single-location-box:hover .marker-box span:before{
-    color: blue;
+    opacity: 0.8;
     transition: all 500ms ease;
 }
 .map-content-box .inner .overlay .location-info h3{
