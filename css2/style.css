@@ -63,6 +63,9 @@
     left: 36%;
     bottom: 37%;
 }
+.map-content-box .inner .overlay .marker-box span:before{
+    font-size: 45px;
+}
 
 @media (max-width: 1409.98px) {
     .map-content-box .inner .overlay .single-location-box.one {
@@ -88,6 +91,9 @@
     .map-content-box .inner .overlay .single-location-box.six{
         left: 37%;
         bottom: 37%;
+    }
+    .map-content-box .inner .overlay .marker-box span:before{
+        font-size: 40px;
     }
 }
 
@@ -116,6 +122,9 @@
         left: 36%;
         bottom: 38%;
     }
+    .map-content-box .inner .overlay .marker-box span:before{
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -143,6 +152,9 @@
         left: 35%;
         bottom: 37%;
     }
+    .map-content-box .inner .overlay .marker-box span:before{
+        font-size: 30px;
+    }
 }
 
 .map-content-box .inner .overlay .marker-box{
@@ -150,17 +162,16 @@
 }
 .map-content-box .inner .overlay .marker-box span:before{
     color: #1d1d1b;
-    font-size: 50px;
     line-height: 50px;
     cursor: pointer;
-
+    opacity: 0.9;
 }
 
 .map-content-box .inner .overlay .location-info {
     position: absolute;
-    left: -20px;
+    left: -50px;
     bottom: 100px;
-    width: 270px;
+    width: 240px;
     opacity: 0;
     visibility: hidden;
     padding: 25px 0px 0px 30px;
@@ -206,7 +217,7 @@
     bottom: 55px;
 }
 .map-content-box .inner .overlay .single-location-box:hover .marker-box span:before{
-    opacity: 0.8;
+    opacity: 1.0;
     transition: all 500ms ease;
 }
 .map-content-box .inner .overlay .location-info h3{
