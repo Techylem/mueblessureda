@@ -41,7 +41,7 @@
 }
 .map-content-box .inner .overlay .single-location-box.one {
     top: 54%;
-    left: 20%;
+    left: 21%;
 }
 .map-content-box .inner .overlay .single-location-box.two{
     top: 22%;
@@ -61,7 +61,7 @@
 }
 .map-content-box .inner .overlay .single-location-box.six{
     left: 36%;
-    bottom: 37%;
+    bottom: 39%;
 }
 .map-content-box .inner .overlay .marker-box span:before{
     font-size: 45px;
@@ -69,12 +69,12 @@
 
 @media (max-width: 1409.98px) {
     .map-content-box .inner .overlay .single-location-box.one {
-        top: 54%;
-        left: 21%;
+        top: 56%;
+        left: 22%;
     }
     .map-content-box .inner .overlay .single-location-box.two{
-        top: 22%;
-        left:74%;    
+        top: 24%;
+        left:73%;    
     }
     .map-content-box .inner .overlay .single-location-box.three{
         left: 33%; 
@@ -82,45 +82,100 @@
     }
     .map-content-box .inner .overlay .single-location-box.four{
         left: 41%;
-        bottom: 25%;
+        bottom: 24%;
     }
     .map-content-box .inner .overlay .single-location-box.five{
-        left: 31%;
+        left: 32%;
         bottom: 44%;
     }
     .map-content-box .inner .overlay .single-location-box.six{
         left: 37%;
-        bottom: 37%;
+        bottom: 39%;
     }
     .map-content-box .inner .overlay .marker-box span:before{
         font-size: 40px;
     }
 }
-
-@media (max-width: 767.98px) {
-    .map-content-box .inner .overlay .single-location-box.one {
-        top: 48%;
-        left: 19%;
+@media (max-width: 1329.98px) {
+     .map-content-box .inner .overlay .single-location-box.one {
+        top: 54%;
+        left: 21%;
     }
     .map-content-box .inner .overlay .single-location-box.two{
-        top: 16%;
-        left:73%;    
+        top: 23%;
+        left:75%;    
     }
     .map-content-box .inner .overlay .single-location-box.three{
-        left: 32%; 
+        left: 34%; 
+        bottom: 38%;
+    }
+    .map-content-box .inner .overlay .single-location-box.four{
+        left: 42%;
+        bottom: 24%;
+    }
+    .map-content-box .inner .overlay .single-location-box.five{
+        left: 32%;
+        bottom: 44%;
+    }
+    .map-content-box .inner .overlay .single-location-box.six{
+        left: 38%;
+        bottom: 39%;
+    }
+}
+@media (max-width: 991.98px) {
+    .map-content-box .inner .overlay .single-location-box.one {
+        top: 51%;
+        left: 21%;
+    }
+    .map-content-box .inner .overlay .single-location-box.two{
+        top: 20%;
+        left:75%;    
+    }
+    .map-content-box .inner .overlay .single-location-box.three{
+        left: 33.5%; 
         bottom: 37%;
     }
     .map-content-box .inner .overlay .single-location-box.four{
-        left: 40%;
+        left: 41%;
         bottom: 23%;
+    }
+    .map-content-box .inner .overlay .single-location-box.five{
+        left: 32%;
+        bottom: 43%;
+    }
+    .map-content-box .inner .overlay .single-location-box.six{
+        left: 38%;
+        bottom: 38%;
+    }
+    .map-content-box .inner .overlay .marker-box span:before{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .map-content-box .inner .overlay .single-location-box.one {
+        top: 50%;
+        left: 21%;
+    }
+    .map-content-box .inner .overlay .single-location-box.two{
+        top: 18%;
+        left:75%;    
+    }
+    .map-content-box .inner .overlay .single-location-box.three{
+        left: 33%; 
+        bottom: 36%;
+    }
+    .map-content-box .inner .overlay .single-location-box.four{
+        left: 41%;
+        bottom: 22%;
     }
     .map-content-box .inner .overlay .single-location-box.five{
         left: 31%;
         bottom: 43%;
     }
     .map-content-box .inner .overlay .single-location-box.six{
-        left: 36%;
-        bottom: 38%;
+        left: 37%;
+        bottom: 37%;
     }
     .map-content-box .inner .overlay .marker-box span:before{
         font-size: 35px;
@@ -129,28 +184,28 @@
 
 @media (max-width: 575.98px) {
     .map-content-box .inner .overlay .single-location-box.one {
-        top: 44%;
-        left: 19%;
+        top: 46%;
+        left: 21%;
     }
     .map-content-box .inner .overlay .single-location-box.two{
-        top: 10%;
-        left:72%;    
+        top: 15%;
+        left:75%;    
     }
     .map-content-box .inner .overlay .single-location-box.three{
-        left: 31%; 
-        bottom: 36%;
+        left: 33%; 
+        bottom: 35%;
     }
     .map-content-box .inner .overlay .single-location-box.four{
-        left: 39%;
-        bottom: 23%;
+        left: 41%;
+        bottom: 20%;
     }
     .map-content-box .inner .overlay .single-location-box.five{
         left: 31%;
-        bottom: 44%;
+        bottom: 41%;
     }
     .map-content-box .inner .overlay .single-location-box.six{
-        left: 35%;
-        bottom: 37%;
+        left: 37%;
+        bottom: 36%;
     }
     .map-content-box .inner .overlay .marker-box span:before{
         font-size: 30px;
